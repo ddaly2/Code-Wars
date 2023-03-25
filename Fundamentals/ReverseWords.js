@@ -1,5 +1,3 @@
-let str = "This is a string of words";
-
 function reverseWords(str) {
   let newStr = [];
   let letters = str.split("");
@@ -23,5 +21,3 @@ function reverseWords(str) {
   newStr = newStr.join(" ");
   return newStr;
 }
-
-console.log(reverseWords(str));
